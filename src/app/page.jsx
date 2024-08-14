@@ -8,7 +8,7 @@ export default function Home() {
       className="h-full"
       initial={{ y: "-200vh" }}
       animate={{ y: "0" }}
-      transition={{ duration }}
+      transition={{ duration :1}}
     >
       <div className="h-full flex flex-col lg:flex-row  px-4 sm:px-12 lg:px-20 xl:px-48 gap-8">
         {/* Image container */}
